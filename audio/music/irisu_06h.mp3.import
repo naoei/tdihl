@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/irisu_06h.mp3-3346bbcddbe044a5fa82ce54a2022867.mp3str"
+
+[deps]
+
+source_file="res://audio/music/irisu_06h.mp3"
+dest_files=[ "res://.import/irisu_06h.mp3-3346bbcddbe044a5fa82ce54a2022867.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

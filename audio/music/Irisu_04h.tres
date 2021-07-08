@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://audio/music/irisu_04h.mp3" type="AudioStream" id=1]
+[ext_resource path="res://Resources/Tracks.cs" type="Script" id=2]
+
+[resource]
+script = ExtResource( 2 )
+Title = "A Cat and a Rabbit and an Old Story"
+Stream = ExtResource( 1 )

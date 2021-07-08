@@ -1,0 +1,6 @@
+.git/
+.idea/
+.import/
+.mono/
+bin/
+peko.sln.DotSettings.user

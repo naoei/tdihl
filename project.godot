@@ -52,3 +52,7 @@ music_random={
 [physics]
 
 common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/filters/use_nearest_mipmap_filter=true

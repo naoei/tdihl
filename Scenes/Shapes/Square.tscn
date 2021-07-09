@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ShapeBuilder.cs" type="Script" id=1]
+[ext_resource path="res://Scenes/Shapes/square.tres" type="Resource" id=2]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+Shape = ExtResource( 2 )
+
+[node name="outline" type="Polygon2D" parent="."]
+color = Color( 0, 0, 0, 1 )
+polygon = PoolVector2Array( 0, 0, 40, 0, 40, 40, 0, 40 )
+
+[node name="base" type="Polygon2D" parent="."]
+polygon = PoolVector2Array( 0, 0, 40, 0, 40, 40, 0, 40 )

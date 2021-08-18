@@ -27,7 +27,7 @@ public class RandomMusicPlayer : AudioStreamPlayer
         Play();
 
         var node = GetNode<MusicTextLabel>(TextLabel);
-        node.DisplayText("Now Playing: " + song.Title, 2);
+        //node.DisplayText("Now Playing: " + song.Title, 2);
     }
 
     private Tracks findSong()

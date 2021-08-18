@@ -2,8 +2,7 @@
 
 public class TextOffsetEffect : RichTextEffect
 {
-    [Export]
-    public string bbcode = "offset";
+    public string bbcode = "peko";
     
     public override bool _ProcessCustomFx(CharFXTransform charFx)
     {
